@@ -1,0 +1,41 @@
+install nodemon >> npm i -g nodemon --save
+
+
+* User Model >>
+    - name
+    - email
+    - password
+    - user type
+    - images {imageurl, comments[user, text]}
+    - albums
+    - followers
+    - following => [users]
+    - tokens
+
+* User functions >> 
+    - register
+    - activate user
+    - login
+    - logout one device
+    - logout all devices
+    - user profile
+    - upload image
+    - upload/add album of images => add album, add images to album
+    - delete image/album
+
+* Album Controls >>
+    - add Album
+    - delete album
+    - update album
+
+
+xx ملوش لزمة
+* Images model >>
+    - user id
+    - image path
+    - file type
+    - title
+    - description
+    - creator
+    - image url
+    - albums
